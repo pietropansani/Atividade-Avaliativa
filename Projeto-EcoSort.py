@@ -38,3 +38,7 @@ else:
 
 vet_fretes.append(frete_final)
 
+carga_total = sum(vet_pesos)
+faturamento_bruto = sum(vet_fretes)
+ticket_medio = faturamento_bruto / TOTAL_PACOTES
+
