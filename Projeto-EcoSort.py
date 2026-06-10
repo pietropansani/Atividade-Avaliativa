@@ -42,3 +42,9 @@ carga_total = sum(vet_pesos)
 faturamento_bruto = sum(vet_fretes)
 ticket_medio = faturamento_bruto / TOTAL_PACOTES
 
+print("\n========== RESULTADO FINAL ==========")
+print(f"> Total de pacotes: {TOTAL_PACOTES}")
+print(f"Carga total acumulada: {carga_total:.2f} kg")
+print(f"Faturamento bruto do lote: R$ {faturamento_bruto:.2f}")
+print(f"Ticket médio por pacote: R$ {ticket_medio:.2f}")
+print("====================================")
