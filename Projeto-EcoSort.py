@@ -16,3 +16,12 @@ while True:
                 print("[ERRO] O peso não pode ser negativo ou zero. Tente novamente.")
         except ValueError:
             print("[ERRO] Entrada inválida. Por favor, digite um número.")
+while True:
+     destino = input("O destino é (N)acional ou (I)nternacional?: ").strip().upper()
+     if destino in ['N', 'I']:
+          break
+     else:
+         print("[ERRO] Opção inválida. Digite apenas 'N' ou 'I'.")
+
+
+
