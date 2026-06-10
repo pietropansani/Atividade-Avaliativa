@@ -23,5 +23,18 @@ while True:
      else:
          print("[ERRO] Opção inválida. Digite apenas 'N' ou 'I'.")
 
+vet_pesos.append(peso)
 
+if peso <= 2:
+     frete_base = 10.00
+elif peso <= 10:
+     frete_base = 20.00
+else:
+     frete_base = 30.00
+if destino == 'I':
+     frete_final = frete_base * 1.20
+else:
+     frete_final = frete_base
+
+vet_fretes.append(frete_final)
 
